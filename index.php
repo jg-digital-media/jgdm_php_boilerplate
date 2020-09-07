@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Boilerplate</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php require "inc/header.php";  ?>
+
+<?php echo "content"; ?>
+
+<?php require "inc/footer.php"; ?>
