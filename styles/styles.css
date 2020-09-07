@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: darkgray; }
+  body main {
+    width: 100%; }
+
+footer p {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
