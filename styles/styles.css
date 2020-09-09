@@ -6,6 +6,9 @@ body {
   background: darkgray; }
   body main {
     width: 100%; }
+  body .main_nav .selected {
+    font-weight: bold;
+    color: red; }
 
 footer p {
   text-align: center; }

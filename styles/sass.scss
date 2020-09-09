@@ -9,6 +9,13 @@ body {
     main {
         width: 100%;
     }
+
+    .main_nav {
+        .selected {
+            font-weight: bold;
+            color: red;
+        }
+    }
     
 }
 

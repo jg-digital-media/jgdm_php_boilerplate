@@ -1,5 +1,7 @@
   
 
+    </main>
+
     <footer>
         <p>&copy; JGDM 2020<a href="#">https://www.</a>
     </footer>
