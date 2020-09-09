@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Boilerplate | Change Title</title>
 
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- meta tags -->
+    <meta name="description" content="<?php echo $meta_description; ?>">
+    <meta name="keywords" content="<?php echo $meta_keywords; ?>"> 
+    <meta name="image" content="<?php echo $meta_image; ?>">
+
+    <!-- FACEBOOK: Open Graph -->
+    <meta property="og:title" content="<?php echo $page_title; ?>">
+    <meta property="og:description" content="<?php echo $meta_description; ?>">
+    <meta property="og:image" content="<?php echo $meta_image; ?>">
+    <meta property="og:url" content="<?php echo $page_url; ?>">
+
+    <!-- TWITTER: Open Graph -->
+    <meta name="twitter:title" content="<?php echo $page_title;  ?>">
+    <meta name="twitter:description" content="<?php echo $meta_description; ?>">
+    <meta name="twitter:image" content="<?php echo $meta_image; ?>">
+    <meta name="twitter:card" content="site_name">
+
+    <!-- Canonical link -->
+    <link rel="canonical" href="<?php echo $page_url; ?>">
+
+    <!-- Page Title-->
+    <title><?php echo $page_title;  ?></title>
+
 </head>
 <body>
 
