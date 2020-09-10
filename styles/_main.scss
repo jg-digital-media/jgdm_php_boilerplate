@@ -1,0 +1,46 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: darkgray;
+    font-family: $font_mn;
+    
+    main {
+        width: 100%;
+    }
+
+    .main_nav {
+        .selected {
+            font-weight: bold;
+            color: red;
+        }
+    }
+
+    section {
+        padding: 0 10px;
+        article {
+
+            h2 {
+                margin: 20px 0;
+            }
+
+            p {
+                font-size: 12px;
+                line-break: 1.9;
+                line-height: 1.9;
+            }
+        }
+    }
+    
+}
+
+
+footer {
+    p {
+        text-align: center;
+    }
+}
