@@ -3,7 +3,7 @@
     </main>
 
     <footer>
-        <p>&copy; JGDM 2020<a href="#">https://www.</a>
+        <p>&copy; 2020 Created by Jonnie Grieve Digital Media <a href="https://www.jonniegrieve.co.uk">https://www.jonniegrieve.co.uk</a>
     </footer>
 
     <script type="text/javascript" src="scripts/app.js"></script>

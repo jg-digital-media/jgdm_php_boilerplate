@@ -31,4 +31,13 @@ body {
 footer p {
   text-align: center; }
 
+footer {
+  margin-top: 20px; }
+  footer p {
+    text-align: center; }
+    footer p a {
+      color: red; }
+      footer p a:hover {
+        text-decoration: none; }
+
 /*# sourceMappingURL=styles.css.map */
