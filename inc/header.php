@@ -39,7 +39,7 @@
 
         <header>
 
-            <h1>Main Title</h1>
+            <h1><?php echo $website_title;  ?></h1>
 
             <ul class="main_nav">
                 <li>

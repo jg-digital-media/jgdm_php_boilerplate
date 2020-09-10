@@ -8,6 +8,7 @@
 
     $page_url = "";
     $page_title = "Page Home";
+    $website_title= "PHP Website Starter";
 
 ?>
 
