@@ -33,14 +33,41 @@ body {
   font-family: arial; }
   body main {
     width: 100%; }
+  body h2 {
+    margin: 20px 20px; }
   body section {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
     padding: 0 10px; }
-    body section article h2 {
-      margin: 20px 0; }
-    body section article p {
+    body section p {
       font-size: 12px;
       line-break: 1.9;
-      line-height: 1.9; }
+      line-height: 1.9;
+      margin-top: 15px; }
+    @media (max-width: 760px) {
+      body section article {
+        display: flex;
+        flex-direction: column-reverse; } }
+    body section article .main_content {
+      display: inline-block;
+      vertical-align: top;
+      width: 63%; }
+      @media (max-width: 760px) {
+        body section article .main_content {
+          width: 90%; } }
+    body section article .sub_content {
+      width: 30%;
+      display: inline-block;
+      margin: 0 auto; }
+      @media (max-width: 760px) {
+        body section article .sub_content {
+          width: 90%; } }
+      @media (max-width: 760px) {
+        body section article .sub_content img {
+          display: block;
+          margin: 0 auto;
+          width: 50%; } }
 
 footer p {
   text-align: center; }

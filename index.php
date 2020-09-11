@@ -16,19 +16,27 @@
 
 <h2><?php echo $page_title;  ?></h2>
 
-<div class="main_content">
+<section>
 
-    <h3>Content.</h3> 
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+    <article>
+        <div class="main_content">
 
-    <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+            <h3>Content.</h3> 
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
 
-    <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
-</div>
+            <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
 
-<div class="sub_content">
-    <img src="img/placeholder.png" alt="" id="" />
-</div>
+            <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+
+        </div>
+
+        <div class="sub_content">
+            <img src="img/placeholder.png" alt="" id="" />
+        </div>
+        
+    </article>
+
+</section>
 
 <?php require "inc/footer.php"; ?>

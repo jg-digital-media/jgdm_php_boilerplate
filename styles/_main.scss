@@ -12,33 +12,59 @@ body {
     main {
         width: 100%;
     }
+    
+    h2 {
+        margin: 20px 20px;
+    }
    
     section {
 
-        padding: 0 10px;
-        
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+        padding: 0 10px;     
+
+        p {
+            font-size: 12px;
+            line-break: 1.9;
+            line-height: 1.9;
+            margin-top: 15px;
+        }
+
         article {
 
-            h2 {
-                margin: 20px 0;
+            @media(max-width: $md) {
+                display: flex;
+                flex-direction: column-reverse;
             }
 
-            p {
-                font-size: 12px;
-                line-break: 1.9;
-                line-height: 1.9;
+            .main_content {
+                display: inline-block;
+                vertical-align: top;
+                width: 63%;
+
+                @media(max-width: $md) {
+                    width: 90%;
+                }
             }
-        }
 
-        .main_content {
-            display: inline-block;
-            vertical-align: top;
-            width: 56%;
-        }
+            .sub_content {
+                width: 30%;
+                display: inline-block;
+                margin: 0 auto;
 
-        .sub_content {
-            width: 35%;
-            display: inline-block;
+                @media(max-width: $md) {
+                    width: 90%;
+                }
+
+                img {
+                    @media(max-width: $md) {
+                        display: block;
+                        margin: 0 auto;
+                        width: 50%;
+                    }
+                }
+            }
         }
     }
     

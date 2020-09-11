@@ -56,7 +56,4 @@
                 </li>
             </ul>
 
-        </header>
-
-        <section>
-            <article>
+        </header>      
