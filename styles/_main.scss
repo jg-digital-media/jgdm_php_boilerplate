@@ -29,6 +29,17 @@ body {
                 line-height: 1.9;
             }
         }
+
+        .main_content {
+            display: inline-block;
+            vertical-align: top;
+            width: 56%;
+        }
+
+        .sub_content {
+            width: 35%;
+            display: inline-block;
+        }
     }
     
 }
