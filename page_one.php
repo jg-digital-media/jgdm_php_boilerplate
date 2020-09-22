@@ -16,8 +16,19 @@
 
 <h2><?php echo $page_title;  ?></h2>
 
-<div>
-    <p>Page 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
-</div>
+<section>
+
+    <article>
+        <div class="main_content">
+
+            <h3><?php echo $page_title;  ?></h3>
+            
+            <p>Page 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>            
+
+        </div>
+
+        <div class="sub_content">
+            <img src="img/placeholder.png" alt="" id="" />
+        </div>            
 
 <?php require "inc/footer.php"; ?>
