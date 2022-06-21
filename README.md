@@ -1,4 +1,4 @@
-# jgdm_php_boilerplate **Last Update:** 21-06-2022 - 12:48
+# jgdm_php_boilerplate **Last Update:** 21-06-2022 - 13:32
 
 Boilerplate code for a PHP based website. 
 
@@ -8,7 +8,7 @@ Boilerplate code for a PHP based website.
 
 Clone to a local server area on your system  [Local](http://localhost/jgdm_php_boilerplate)
 
-### Use SASS to generate the styles needed. Precompompile Sass with the watch command - ```sass --watch sass.scss:styles.css```
+### Use SASS to generate the styles needed. Precompile Sass with the watch command - ```sass --watch sass.scss:styles.css```
 
 
 ### Use PHP variables to apply unique content to PHP Templates
@@ -28,15 +28,15 @@ These should be filled in at the top of each page above the require statement fo
 
 ### Navigation Classes
 
-Using page variables, you can style a "selected page state" according to the page that the user is viewing on your site.  This is done using PHP condition statements.  If a variable has a certain value, add a HTML CLASS to the menu item.
+Using page variables, you can style a "selected page state" that comes into effect according to the page that the user is viewing on your site.  This is done using PHP condition statements.  If a variable has a certain value, add a HTML CLASS to the menu item.
 
-```html
+```php
+
 <ul class="main_nav">
-    <li>
-        <a href="index.php" <?php if( $page_name == "home" ) {echo "class=\"selected\"" ;}  ?>>Home</a>
-    </li>
-    ...
+                <li>
+                    <a href="index.php" <?php if( $page_name == "home" ) {echo "class=\"selected\"" ;}  ?>>Home</a>
+                </li>
 
-</ul>
+                ...
 
 ```
