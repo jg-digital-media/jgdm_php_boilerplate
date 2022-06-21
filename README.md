@@ -4,7 +4,7 @@ Boilerplate code for a PHP based website.
 
 ## Setup
 
-```cd``` to a project route and clone repository using ```git clone https://github.com/jg-digital-media/jgdm_php_boilerplate```
+```cd``` to a project root directory and clone repository using ```git clone https://github.com/jg-digital-media/jgdm_php_boilerplate```
 
 ### Use Sass to generate the styles needed - ```sass --watch sass.scss:styles.css```
 
