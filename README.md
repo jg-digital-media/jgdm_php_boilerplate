@@ -1,4 +1,4 @@
-# jgdm_php_boilerplate **Last Update:** 21-06-2022  - 12:45
+# jgdm_php_boilerplate **Last Update:** 21-06-2022 - 12:48
 
 Boilerplate code for a PHP based website. 
 
@@ -6,7 +6,7 @@ Boilerplate code for a PHP based website.
 
 ```cd``` to a project root directory and clone repository using ```git clone https://github.com/jg-digital-media/jgdm_php_boilerplate```
 
-Clone to a local server area on your system  [Local](http://localhost/repositories/jgdm_php_boilerplate)
+Clone to a local server area on your system  [Local](http://localhost/jgdm_php_boilerplate)
 
 ### Use SASS to generate the styles needed. Precompompile Sass with the watch command - ```sass --watch sass.scss:styles.css```
 
