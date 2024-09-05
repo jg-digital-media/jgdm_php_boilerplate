@@ -1,6 +1,6 @@
-# jgdm_php_boilerplate **Last Update:** 18-08-2024 - 09:15
+# jgdm_php_boilerplate **Last Update:** 05-09-2024 - 15:01
 
-This repository contains Boilerplate code for a PHP based website that you can clone to your Version Control Enabled System. 
+This repository contains Boilerplate code for a PHP based website that you can clone to your Version Control Enabled System. The live link to the project is [here](https://projects.jonniegrieve.co.uk/php_boilerplate/).
 
 
 ## **Sections**
